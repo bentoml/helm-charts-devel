@@ -3,12 +3,12 @@ entries:
   yatai-deployment:
   - apiVersion: v2
     appVersion: 1.0.0-d0
-    created: "2022-09-08T07:48:07.604406751Z"
+    created: "2022-09-08T10:53:52.972451758Z"
     description: The deployment component for Yatai
-    digest: 3835af910649f52a1741ad7d0f2e3cacd01bfa7f877f9d125fec29c27a4a891b
+    digest: 792001d7940206ea402e6ad2c5fb89881829212ed316382bba938460b29bb49c
     name: yatai-deployment
     type: application
     urls:
     - packages/yatai-deployment-1.0.0-d0.tgz
     version: 1.0.0-d0
-generated: "2022-09-08T07:48:07.603298252Z"
+generated: "2022-09-08T10:53:52.971168143Z"
