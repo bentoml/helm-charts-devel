@@ -1,9 +1,30 @@
 apiVersion: v1
 entries:
+  yatai:
+  - apiVersion: v2
+    appVersion: 1.0.0-d0
+    created: "2022-09-08T11:47:08.554398511Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Yatai Helm chart
+    digest: aafe2b731bf6bbdc617c76ee0a39b72078cfe5759449becf74656c0b0fcdd2b1
+    home: https://github.com/bentoml/yatai
+    maintainers:
+    - email: contact@bentoml.ai
+      name: BentoML developers
+    name: yatai
+    type: application
+    urls:
+    - packages/yatai-1.0.0-d0.tgz
+    version: 1.0.0-d0
   yatai-deployment:
   - apiVersion: v2
     appVersion: 1.0.0-d0
-    created: "2022-09-08T10:53:52.972451758Z"
+    created: "2022-09-08T11:47:08.555279938Z"
     description: The deployment component for Yatai
     digest: 792001d7940206ea402e6ad2c5fb89881829212ed316382bba938460b29bb49c
     name: yatai-deployment
@@ -11,4 +32,4 @@ entries:
     urls:
     - packages/yatai-deployment-1.0.0-d0.tgz
     version: 1.0.0-d0
-generated: "2022-09-08T10:53:52.971168143Z"
+generated: "2022-09-08T11:47:08.551220116Z"
