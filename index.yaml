@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   yatai:
   - apiVersion: v2
+    appVersion: 1.0.0-d3
+    created: "2022-09-09T20:42:46.552773235Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Yatai Helm chart
+    digest: e365396b216f98d24de4e43b30fa1dbecc817f8d866948386249f25743f58325
+    home: https://github.com/bentoml/yatai
+    maintainers:
+    - email: contact@bentoml.ai
+      name: BentoML developers
+    name: yatai
+    type: application
+    urls:
+    - packages/yatai-1.0.0-d3.tgz
+    version: 1.0.0-d3
+  - apiVersion: v2
     appVersion: 1.0.0-d2
-    created: "2022-09-09T20:39:41.449649051Z"
+    created: "2022-09-09T20:42:46.549923556Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -23,7 +43,7 @@ entries:
     version: 1.0.0-d2
   - apiVersion: v2
     appVersion: 1.0.0-d1
-    created: "2022-09-09T20:39:41.44819473Z"
+    created: "2022-09-09T20:42:46.539852324Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -43,7 +63,7 @@ entries:
     version: 1.0.0-d1
   - apiVersion: v2
     appVersion: 1.0.0-d0
-    created: "2022-09-09T20:39:41.446721309Z"
+    created: "2022-09-09T20:42:46.537939104Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -64,7 +84,7 @@ entries:
   yatai-deployment:
   - apiVersion: v2
     appVersion: 1.0.0-d1
-    created: "2022-09-09T20:39:41.451165473Z"
+    created: "2022-09-09T20:42:46.555789324Z"
     description: The deployment component for Yatai
     digest: 3b3302bd7e558cc0f1b03b45e0e5d9dfb3f8e3332e4bf0cabed196c7a86d88b1
     name: yatai-deployment
@@ -74,7 +94,7 @@ entries:
     version: 1.0.0-d1
   - apiVersion: v2
     appVersion: 1.0.0-d0
-    created: "2022-09-09T20:39:41.450422962Z"
+    created: "2022-09-09T20:42:46.554238527Z"
     description: The deployment component for Yatai
     digest: 792001d7940206ea402e6ad2c5fb89881829212ed316382bba938460b29bb49c
     name: yatai-deployment
@@ -82,4 +102,4 @@ entries:
     urls:
     - packages/yatai-deployment-1.0.0-d0.tgz
     version: 1.0.0-d0
-generated: "2022-09-09T20:39:41.44472728Z"
+generated: "2022-09-09T20:42:46.534337778Z"
