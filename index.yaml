@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   yatai:
   - apiVersion: v2
+    appVersion: 2.0.0-d3
+    created: "2022-11-22T04:00:27.774759383Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Yatai Helm chart
+    digest: 0b04b790abaed868c3259b054e483fa9df757a4d4d6b5d15002d7f34b78c4ede
+    home: https://github.com/bentoml/yatai
+    maintainers:
+    - email: contact@bentoml.ai
+      name: BentoML developers
+    name: yatai
+    type: application
+    urls:
+    - packages/yatai-2.0.0-d3.tgz
+    version: 2.0.0-d3
+  - apiVersion: v2
     appVersion: 1.0.0-d9
-    created: "2022-11-22T03:51:31.188690022Z"
+    created: "2022-11-22T04:00:27.773203908Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -23,7 +43,7 @@ entries:
     version: 1.0.0-d9
   - apiVersion: v2
     appVersion: 1.0.0-d8
-    created: "2022-11-22T03:51:31.186527521Z"
+    created: "2022-11-22T04:00:27.771018742Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -43,7 +63,7 @@ entries:
     version: 1.0.0-d8
   - apiVersion: v2
     appVersion: 1.0.0-d7
-    created: "2022-11-22T03:51:31.18500242Z"
+    created: "2022-11-22T04:00:27.769533765Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -63,7 +83,7 @@ entries:
     version: 1.0.0-d7
   - apiVersion: v2
     appVersion: 1.0.0-d6
-    created: "2022-11-22T03:51:31.183490119Z"
+    created: "2022-11-22T04:00:27.768024289Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -83,7 +103,7 @@ entries:
     version: 1.0.0-d6
   - apiVersion: v2
     appVersion: 1.0.0-d5
-    created: "2022-11-22T03:51:31.181936018Z"
+    created: "2022-11-22T04:00:27.766538112Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -103,7 +123,7 @@ entries:
     version: 1.0.0-d5
   - apiVersion: v2
     appVersion: 1.0.0-d4
-    created: "2022-11-22T03:51:31.180412817Z"
+    created: "2022-11-22T04:00:27.765020636Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -123,7 +143,7 @@ entries:
     version: 1.0.0-d4
   - apiVersion: v2
     appVersion: 1.0.0-d3
-    created: "2022-11-22T03:51:31.178880015Z"
+    created: "2022-11-22T04:00:27.76349416Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -143,7 +163,7 @@ entries:
     version: 1.0.0-d3
   - apiVersion: v2
     appVersion: 1.0.0-d2
-    created: "2022-11-22T03:51:31.177037514Z"
+    created: "2022-11-22T04:00:27.761730887Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -163,7 +183,7 @@ entries:
     version: 1.0.0-d2
   - apiVersion: v2
     appVersion: 1.0.0-d13
-    created: "2022-11-22T03:51:31.174989013Z"
+    created: "2022-11-22T04:00:27.759662519Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -183,7 +203,7 @@ entries:
     version: 1.0.0-d13
   - apiVersion: v2
     appVersion: 1.0.0-d12
-    created: "2022-11-22T03:51:31.173023412Z"
+    created: "2022-11-22T04:00:27.757764549Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -203,7 +223,7 @@ entries:
     version: 1.0.0-d12
   - apiVersion: v2
     appVersion: 1.0.0-d11
-    created: "2022-11-22T03:51:31.171521511Z"
+    created: "2022-11-22T04:00:27.756239473Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -223,7 +243,7 @@ entries:
     version: 1.0.0-d11
   - apiVersion: v2
     appVersion: 1.0.0-d10
-    created: "2022-11-22T03:51:31.16999751Z"
+    created: "2022-11-22T04:00:27.754722497Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -243,7 +263,7 @@ entries:
     version: 1.0.0-d10
   - apiVersion: v2
     appVersion: 1.0.0-d1
-    created: "2022-11-22T03:51:31.168413508Z"
+    created: "2022-11-22T04:00:27.753102722Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -263,7 +283,7 @@ entries:
     version: 1.0.0-d1
   - apiVersion: v2
     appVersion: 1.0.0-d0
-    created: "2022-11-22T03:51:31.166830707Z"
+    created: "2022-11-22T04:00:27.751276751Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -284,7 +304,7 @@ entries:
   yatai-deployment:
   - apiVersion: v2
     appVersion: 2.0.0-d2
-    created: "2022-11-22T03:51:31.227805848Z"
+    created: "2022-11-22T04:00:27.812831026Z"
     description: The deployment component for Yatai
     digest: 6d73ac2b6f4f8486beaccb69ed444c6d4dea24be1138986615d8e60398af97ed
     name: yatai-deployment
@@ -294,7 +314,7 @@ entries:
     version: 2.0.0-d2
   - apiVersion: v2
     appVersion: 2.0.0-d1
-    created: "2022-11-22T03:51:31.223899246Z"
+    created: "2022-11-22T04:00:27.809431758Z"
     description: The deployment component for Yatai
     digest: 68d60ef57189f1043398712738989ab784e083a925bea32fe89459404095104e
     name: yatai-deployment
@@ -304,7 +324,7 @@ entries:
     version: 2.0.0-d1
   - apiVersion: v2
     appVersion: 1.0.0-d9
-    created: "2022-11-22T03:51:31.221077644Z"
+    created: "2022-11-22T04:00:27.806744183Z"
     description: The deployment component for Yatai
     digest: d6208ccdcb0faae1751ef4ac5054aca16453867028586323facb0abfb85bd564
     name: yatai-deployment
@@ -314,7 +334,7 @@ entries:
     version: 1.0.0-d9
   - apiVersion: v2
     appVersion: 1.0.0-d8
-    created: "2022-11-22T03:51:31.219276743Z"
+    created: "2022-11-22T04:00:27.805040699Z"
     description: The deployment component for Yatai
     digest: 007f650f54c0f83e457079779d4403455df8b01899d8dfcd12a3e86b14b4d43e
     name: yatai-deployment
@@ -324,7 +344,7 @@ entries:
     version: 1.0.0-d8
   - apiVersion: v2
     appVersion: 1.0.0-d7
-    created: "2022-11-22T03:51:31.217401341Z"
+    created: "2022-11-22T04:00:27.803160617Z"
     description: The deployment component for Yatai
     digest: 9ce61dcc4a7cf3e188b5824520351fdf7fd6622c06a58ae9ef6f90a9ff817104
     name: yatai-deployment
@@ -334,7 +354,7 @@ entries:
     version: 1.0.0-d7
   - apiVersion: v2
     appVersion: 1.0.0-d6
-    created: "2022-11-22T03:51:31.21598614Z"
+    created: "2022-11-22T04:00:27.801736631Z"
     description: The deployment component for Yatai
     digest: a60884dbf7432676bd251a226a3fe747b7659590f8f9ddc57b17285f08bc3cb5
     name: yatai-deployment
@@ -344,7 +364,7 @@ entries:
     version: 1.0.0-d6
   - apiVersion: v2
     appVersion: 1.0.0-d5
-    created: "2022-11-22T03:51:31.214587739Z"
+    created: "2022-11-22T04:00:27.800357644Z"
     description: The deployment component for Yatai
     digest: b9338cc762a0aeee2803c76ffd56c89eeec384c621a5b76d7280bf3716ac53ff
     name: yatai-deployment
@@ -354,7 +374,7 @@ entries:
     version: 1.0.0-d5
   - apiVersion: v2
     appVersion: 1.0.0-d4
-    created: "2022-11-22T03:51:31.213174838Z"
+    created: "2022-11-22T04:00:27.798962057Z"
     description: The deployment component for Yatai
     digest: 0d1c3cf6ec1ef3dd4ee6b8fdb75d1ee05dc3a24cb44e7648b0c8b389cfd289ce
     name: yatai-deployment
@@ -364,7 +384,7 @@ entries:
     version: 1.0.0-d4
   - apiVersion: v2
     appVersion: 1.0.0-d3
-    created: "2022-11-22T03:51:31.211896538Z"
+    created: "2022-11-22T04:00:27.797629469Z"
     description: The deployment component for Yatai
     digest: 463076a73aaecca965b9e7cdbaadcc904e64617efe2747e8d2e1596a6400a5b0
     name: yatai-deployment
@@ -374,7 +394,7 @@ entries:
     version: 1.0.0-d3
   - apiVersion: v2
     appVersion: 1.0.0-d2
-    created: "2022-11-22T03:51:31.210759837Z"
+    created: "2022-11-22T04:00:27.79652218Z"
     description: The deployment component for Yatai
     digest: 51225134f771060bd2ccda755e8a29af24a54f94bebd3fcd7f641495c4ae30b7
     name: yatai-deployment
@@ -384,7 +404,7 @@ entries:
     version: 1.0.0-d2
   - apiVersion: v2
     appVersion: 1.0.0-d17
-    created: "2022-11-22T03:51:31.209589536Z"
+    created: "2022-11-22T04:00:27.795342191Z"
     description: The deployment component for Yatai
     digest: 29c3df35a391118062231e6596dc6ad5d579aa738f7379c00ff14b6a97103db0
     name: yatai-deployment
@@ -394,7 +414,7 @@ entries:
     version: 1.0.0-d17
   - apiVersion: v2
     appVersion: 1.0.0-d16
-    created: "2022-11-22T03:51:31.206384534Z"
+    created: "2022-11-22T04:00:27.79219292Z"
     description: The deployment component for Yatai
     digest: 4fae67f7c05620ae01bbb7277e151873004229c3271ff0f396950fd68b371966
     name: yatai-deployment
@@ -404,7 +424,7 @@ entries:
     version: 1.0.0-d16
   - apiVersion: v2
     appVersion: 1.0.0-d15
-    created: "2022-11-22T03:51:31.203519432Z"
+    created: "2022-11-22T04:00:27.789509253Z"
     description: The deployment component for Yatai
     digest: 1a11af74911949090a5ae120407fdbd7181a5e8a4b0be40a351ac16dbfaa38f3
     name: yatai-deployment
@@ -414,7 +434,7 @@ entries:
     version: 1.0.0-d15
   - apiVersion: v2
     appVersion: 1.0.0-d14
-    created: "2022-11-22T03:51:31.199367629Z"
+    created: "2022-11-22T04:00:27.785543115Z"
     description: The deployment component for Yatai
     digest: 8304a4238d855541892f305faefdba6d7b0f29500e7968162e6192c008ded0dc
     name: yatai-deployment
@@ -424,7 +444,7 @@ entries:
     version: 1.0.0-d14
   - apiVersion: v2
     appVersion: 1.0.0-d13
-    created: "2022-11-22T03:51:31.196654527Z"
+    created: "2022-11-22T04:00:27.782473663Z"
     description: The deployment component for Yatai
     digest: 195b0ef034bd5a1f0717d5b7791d97405a21715a48fcb407def3669446a59955
     name: yatai-deployment
@@ -434,7 +454,7 @@ entries:
     version: 1.0.0-d13
   - apiVersion: v2
     appVersion: 1.0.0-d12
-    created: "2022-11-22T03:51:31.194218126Z"
+    created: "2022-11-22T04:00:27.780879388Z"
     description: The deployment component for Yatai
     digest: 27a5da5e2408782d4075900b767fad9a9f9420ad1db1caaeb8ca95ae86d47239
     name: yatai-deployment
@@ -444,7 +464,7 @@ entries:
     version: 1.0.0-d12
   - apiVersion: v2
     appVersion: 1.0.0-d11
-    created: "2022-11-22T03:51:31.192936225Z"
+    created: "2022-11-22T04:00:27.779005217Z"
     description: The deployment component for Yatai
     digest: 02f1037992b34f0176479c220984db58dee119a98c5352c11f0c757295849785
     name: yatai-deployment
@@ -454,7 +474,7 @@ entries:
     version: 1.0.0-d11
   - apiVersion: v2
     appVersion: 1.0.0-d10
-    created: "2022-11-22T03:51:31.191657224Z"
+    created: "2022-11-22T04:00:27.777683838Z"
     description: The deployment component for Yatai
     digest: 2b6f05ce0c646315db45adec9777f4c8bade8a3c82d01c6c28a9792a2601f72b
     name: yatai-deployment
@@ -464,7 +484,7 @@ entries:
     version: 1.0.0-d10
   - apiVersion: v2
     appVersion: 1.0.0-d1
-    created: "2022-11-22T03:51:31.190337623Z"
+    created: "2022-11-22T04:00:27.776392558Z"
     description: The deployment component for Yatai
     digest: 3b3302bd7e558cc0f1b03b45e0e5d9dfb3f8e3332e4bf0cabed196c7a86d88b1
     name: yatai-deployment
@@ -474,7 +494,7 @@ entries:
     version: 1.0.0-d1
   - apiVersion: v2
     appVersion: 1.0.0-d0
-    created: "2022-11-22T03:51:31.189548823Z"
+    created: "2022-11-22T04:00:27.77563047Z"
     description: The deployment component for Yatai
     digest: 792001d7940206ea402e6ad2c5fb89881829212ed316382bba938460b29bb49c
     name: yatai-deployment
@@ -485,7 +505,7 @@ entries:
   yatai-image-builder:
   - apiVersion: v2
     appVersion: 0.0.1-d9
-    created: "2022-11-22T03:51:31.239945256Z"
+    created: "2022-11-22T04:00:27.825209709Z"
     description: The image-builder component for Yatai
     digest: bff0098e0a8a7c16e78c5577f84f63c4790982e5a3463eaabe2ea9dca9cd990c
     name: yatai-image-builder
@@ -495,7 +515,7 @@ entries:
     version: 0.0.1-d9
   - apiVersion: v2
     appVersion: 0.0.1-d8
-    created: "2022-11-22T03:51:31.239087556Z"
+    created: "2022-11-22T04:00:27.824308918Z"
     description: The image-builder component for Yatai
     digest: 6036520ea5e20743c8d2dd4e39ad481761574f705982ec1c2f9402d326345441
     name: yatai-image-builder
@@ -505,7 +525,7 @@ entries:
     version: 0.0.1-d8
   - apiVersion: v2
     appVersion: 0.0.1-d7
-    created: "2022-11-22T03:51:31.238194855Z"
+    created: "2022-11-22T04:00:27.823433926Z"
     description: The image-builder component for Yatai
     digest: 9e9152b55aba96c5f6bae3ce35ef9e93814549a195687df99b98d01e75c3d8b7
     name: yatai-image-builder
@@ -515,7 +535,7 @@ entries:
     version: 0.0.1-d7
   - apiVersion: v2
     appVersion: 0.0.1-d6
-    created: "2022-11-22T03:51:31.237150854Z"
+    created: "2022-11-22T04:00:27.822360936Z"
     description: The image-builder component for Yatai
     digest: ab399dfc3a4cb816f9ec36cdb6594ed8e0ba8a97aa576905fce26540e1ce5e67
     name: yatai-image-builder
@@ -525,7 +545,7 @@ entries:
     version: 0.0.1-d6
   - apiVersion: v2
     appVersion: 0.0.1-d5
-    created: "2022-11-22T03:51:31.235865854Z"
+    created: "2022-11-22T04:00:27.821288446Z"
     description: The image-builder component for Yatai
     digest: 1cc21f0ba732d3f56ecbd8c99383b842531e9e5ed9715ac09903e124ac91da39
     name: yatai-image-builder
@@ -535,7 +555,7 @@ entries:
     version: 0.0.1-d5
   - apiVersion: v2
     appVersion: 0.0.1-d4
-    created: "2022-11-22T03:51:31.235019753Z"
+    created: "2022-11-22T04:00:27.820055458Z"
     description: The image-builder component for Yatai
     digest: 460708c5d53c516a85e965de4ec663f96c85be844a89c0b986be32ea1cbb4f1a
     name: yatai-image-builder
@@ -545,7 +565,7 @@ entries:
     version: 0.0.1-d4
   - apiVersion: v2
     appVersion: 0.0.1-d3
-    created: "2022-11-22T03:51:31.234143052Z"
+    created: "2022-11-22T04:00:27.819217366Z"
     description: The image-builder component for Yatai
     digest: 97bb0e5e78e93d2463be68c29da911faf8cef2ee33dcad1c11071f7745db3fdd
     name: yatai-image-builder
@@ -555,7 +575,7 @@ entries:
     version: 0.0.1-d3
   - apiVersion: v2
     appVersion: 0.0.1-d2
-    created: "2022-11-22T03:51:31.233270752Z"
+    created: "2022-11-22T04:00:27.818366574Z"
     description: The image-builder component for Yatai
     digest: e688e5940114f047dd75f45d2847467715e7e106ccfd842c4e92ac03700fdf86
     name: yatai-image-builder
@@ -565,7 +585,7 @@ entries:
     version: 0.0.1-d2
   - apiVersion: v2
     appVersion: 0.0.1-d13
-    created: "2022-11-22T03:51:31.232444351Z"
+    created: "2022-11-22T04:00:27.817524982Z"
     description: The image-builder component for Yatai
     digest: 0ead7ce144ef071d8ee5196a231b48dd9aff3ccb29e86f1e0a55a77fd6603d50
     name: yatai-image-builder
@@ -575,7 +595,7 @@ entries:
     version: 0.0.1-d13
   - apiVersion: v2
     appVersion: 0.0.1-d12
-    created: "2022-11-22T03:51:31.231446451Z"
+    created: "2022-11-22T04:00:27.816537891Z"
     description: The image-builder component for Yatai
     digest: fb85b7aef81044ac7bf0a321cf79e046c4eb2b1d087cbca791a1b2de0f3f6ea4
     name: yatai-image-builder
@@ -585,7 +605,7 @@ entries:
     version: 0.0.1-d12
   - apiVersion: v2
     appVersion: 0.0.1-d11
-    created: "2022-11-22T03:51:31.23043315Z"
+    created: "2022-11-22T04:00:27.815516201Z"
     description: The image-builder component for Yatai
     digest: 340ee4b2f44d4a1c37315beee6facfd1a8350f9ea8609787d622aedc4bcb68c6
     name: yatai-image-builder
@@ -595,7 +615,7 @@ entries:
     version: 0.0.1-d11
   - apiVersion: v2
     appVersion: 0.0.1-d10
-    created: "2022-11-22T03:51:31.229554149Z"
+    created: "2022-11-22T04:00:27.814637109Z"
     description: The image-builder component for Yatai
     digest: 0e1b86ea4cebcd0998dd4449bc93d6ae7e6573b373cfc9db1ff8234273dc743b
     name: yatai-image-builder
@@ -605,7 +625,7 @@ entries:
     version: 0.0.1-d10
   - apiVersion: v2
     appVersion: 0.0.1-d1
-    created: "2022-11-22T03:51:31.228684549Z"
+    created: "2022-11-22T04:00:27.813754317Z"
     description: The image-builder component for Yatai
     digest: d64910fa20dd6d85a43ad4fa52334a835115557c9fe9244369e75d6e018aba95
     name: yatai-image-builder
@@ -613,4 +633,4 @@ entries:
     urls:
     - packages/yatai-image-builder-0.0.1-d1.tgz
     version: 0.0.1-d1
-generated: "2022-11-22T03:51:31.164038806Z"
+generated: "2022-11-22T04:00:27.748640992Z"
